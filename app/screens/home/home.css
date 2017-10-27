@@ -1,0 +1,22 @@
+@import url("../../assets/css/style.css");
+
+
+
+
+.icon-image{
+    background-color: #fff;
+    text-align: center;
+    padding:28px;
+    width: 40%;
+    border-radius: 100%;
+}
+
+.home-page{
+    background-color: #370037;
+}
+
+.label{
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}

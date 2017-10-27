@@ -1,0 +1,31 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+/* button */
+
+
+
+.button{
+    border-radius:100%; 
+    background-color: #E6C6E6;
+    color: #370037;
+    font-weight: bold;
+}
+
+.button:active{
+    background-color: #A864A8;
+}
+
+/* margin */
+.margin-top-10{
+    margin-top:10%;
+}
+
+.margin-top-15{
+    margin-top:15%;
+}
+
+.margin-top-18{
+    margin-top:18%;
+}

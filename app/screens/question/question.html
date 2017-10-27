@@ -1,0 +1,12 @@
+<ActionBar title="Question" color="#E6C6E6" backgroundColor="#370037"></ActionBar>
+<TabView selectedIndex="1"  iosIconRenderingMode="alwaysOriginal" sdkExampleTitle sdkToggleNavButton selectedTabTextColor="#370037" androidSelectedTabHighlightColor="#370037" tabTextColor="#E6C6E6" >
+    <StackLayout *tabItem="{title: 'Profile'}">
+        <question1-component></question1-component>
+    </StackLayout>
+    <StackLayout *tabItem="{title: 'Stats'}">
+        <Label text="Second tab item"></Label>
+    </StackLayout>
+    <StackLayout *tabItem="{title: 'Settings'}">
+        <Label text="Third tab item"></Label>
+    </StackLayout>
+</TabView>

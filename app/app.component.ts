@@ -1,12 +1,19 @@
-import { Component } from "@angular/core";
+import { Component, OnInit } from "@angular/core";
+import { Page } from "ui/page"
 
 @Component({
   selector: "my-app",
-  template: `
-    <ActionBar title="My App" class="action-bar"></ActionBar>
-    <!-- Your UI components go here -->
+  template: `<page-router-outlet></page-router-outlet>
   `
 })
-export class AppComponent {
-  // Your TypeScript logic goes here
+export class AppComponent implements OnInit {
+  
+  constructor(
+    private page: Page
+  ){}
+
+  ngOnInit(){
+    this.page.actionBarHidden = true;
+  }
+
 }
