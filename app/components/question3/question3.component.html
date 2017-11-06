@@ -1,0 +1,13 @@
+<StackLayout>
+        <TextField hint="entry your number" ></TextField> 
+        <Button (tap)="add()" text="tambah Nilai" style="margin-top:20px; color:white; background-color:#370037"></Button>        
+        
+        <StackLayout orientation="horizontal">
+                <StackLayout width="190px"  *ngFor="let field of fieldA" style="font-size:20px">
+                    <Label text="| {{field}} |"></Label>
+                </StackLayout >
+                <StackLayout  width="190px"   *ngFor="let field of fieldB" style="font-size:20px">
+                    <Label text="| {{field}} |"></Label>
+                </StackLayout>
+        </StackLayout>
+</StackLayout>

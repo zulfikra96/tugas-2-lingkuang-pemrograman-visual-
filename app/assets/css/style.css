@@ -29,3 +29,8 @@
 .margin-top-18{
     margin-top:18%;
 }
+
+.container{
+    padding-left:6px;
+    padding-right:6px;
+}

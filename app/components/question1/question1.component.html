@@ -1,4 +1,14 @@
-<StackLayout>
-    <Label text="question 1" ></Label>
-    <Button tap="tambah()" text="tambah siswa"></Button>
+<StackLayout class="container" color="#370037">
+    <TextField hint="entry the name" (textChange)="onNameChange($event)"></TextField>
+    <TextField hint="entry the routine" (textChange)="onRoutineChange($event)" id="routine"></TextField>
+    <Button (tap)="tambah()" text="tambah siswa" style="margin-top:20px; color:white; background-color:#370037"></Button>
+    <StackLayout>
+        <ListView [items]="pupil">
+            <ng-template let-pupil="item" let-i="index" let-odd="odd" let-even="even">
+                <GridLayout class="list-group-item">
+                    <Label text="{{pupil.name}} and {{pupil.routine}} is the routine"></Label>
+                </GridLayout>
+            </ng-template>
+        </ListView>
+    </StackLayout>
 </StackLayout>

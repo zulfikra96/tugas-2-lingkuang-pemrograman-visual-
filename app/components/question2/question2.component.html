@@ -1,0 +1,13 @@
+<StackLayout>
+        <TextField hint="entry your number" (textChange)="entryNumber($event)"></TextField> 
+        <Button (tap)="add()" text="tambah siswa" style="margin-top:20px; color:white; background-color:#370037"></Button>        
+        <StackLayout>
+                <ListView [items]="numb">
+                    <ng-template let-numb="item" let-i="index" let-odd="odd" let-even="even">
+                        <GridLayout class="list-group-item">
+                            <Label text="{{numb}}" style="font-weight:bold; font-size:24px; text-align:center;"></Label>
+                        </GridLayout>
+                    </ng-template>
+                </ListView>
+            </StackLayout>
+</StackLayout>
