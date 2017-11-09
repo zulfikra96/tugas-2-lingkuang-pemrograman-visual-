@@ -1,4 +1,4 @@
-# tugas-2-lingkuang-pemrograman-visual-
+# tugas-2-lingkunga-pemrograman-visual-
 tugas mata kuliah lingkungan pemrograman visual menggunakan nativescript
 
 <h3><b>Requirements</b></h3>
